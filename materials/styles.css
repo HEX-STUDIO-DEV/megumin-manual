@@ -1,8 +1,8 @@
 body{background-color: #1E1E1E;}
 .item{
-    color: #7a7a7a; padding-left: 2vw; font-family: Verdana; font-size: 1.2vw; line-height: 4.3vh;
+    color: #7a7a7a; padding-left: 2.2vw; font-family: Verdana; font-size: 1.2vw; line-height: 4.3vh;
 }
-.gbox {
+.list {
     background-color: #252526; 
     color: #7a7a7a; 
     padding-left: 0.6vw; 
@@ -11,6 +11,12 @@ body{background-color: #1E1E1E;}
     border-style: solid; 
     border-width: 0.2vw;
     border-color: #333333;
+}
+.manual-text {
+    background-color: #252526;
+    color: #7a7a7a; 
+    font-family: Verdana;
+    font-size: 1.5vw; 
 }
 .logo-hex {
     text-align: center;
