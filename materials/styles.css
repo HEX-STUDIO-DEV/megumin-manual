@@ -5,7 +5,7 @@ a {
 }
 .item {
     color: #7a7a7a;
-    padding-left: 2.5vw; 
+    padding-left: 0.9vw; 
     font-family: Verdana; 
     font-size: 1.2vw; 
     line-height: 4.3vh;
@@ -13,7 +13,7 @@ a {
 .list {
     background-color: #252526; 
     color: #7a7a7a; 
-    padding-left: 0.6vw; 
+    padding-left: 2.6vw; 
     font-family: Verdana; 
     font-size: 1.2vw; 
     border-style: solid; 
