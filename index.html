@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="./materials/styles.css">
     </head>
     <body>
-        <div class="list" style="overflow-y: scroll; border-left-color: #252526; border-top-color: #252526; border-bottom-color: #252526; position: absolute; left: 0vw; top: 0vh; width: 14vw; height: 99vh;">
+        <div class="list" style="overflow-y: scroll; border-left-color: #252526; border-top-color: #252526; border-bottom-color: #252526; position: absolute; left: 0vw; top: 0vh; width: 12vw; height: 99vh;">
             <div style="position: absolute; top: 1.2vw; left: 5.4vh; font-size: 1.7vw; width: 5vw; height: 5vh;"><strong>MODULES</strong></div>
             <br/><br/><br/>
             <a href="#emotions"><strong>Emotions</strong></a>
@@ -20,7 +20,7 @@
             <a href="#hug"><div class="item">hug</div></a>
             <a href="#kiss"><div class="item">kiss</div></a>
             <a href="#punch"><div class="item">punch</div></a>
-            <a href="#entertainment"><strong></strong>Entertainment</strong></a>
+            <a href="#entertainment"><strong>Entertainment</strong></a>
             <br/>
             <a href="#meg"><div class="item">meg</div></a>
             <a href="#dice"><div class="item">dice</div></a>
@@ -81,5 +81,23 @@
             <a name="ban">➤ "ban" - bot will ban mentioned user. Syntax: [prefix]ban [@mentioned_user] [reason]</a><br/>
             <p>*Only users with ADMINISTRATOR permission are able to use moderation commands</p>
         </div>
+        <script>
+            if (screen.width < 600) {
+            window.location.href = 'mindex.html';
+            }
+
+            function nocopy(event) { 
+            var event = event || window.event; 
+            if (event.preventDefault) { event.preventDefault(); } 
+            else { event.returnValue = false; } 
+            return false; 
+            };
+            document.onmouseup = nocopy; 
+            document.onmousemove = nocopy; 
+            document.ondragstart = nocopy; 
+            document.onselectstart = nocopy; 
+            document.ontextmenu = nocopy; 
+            document.oncopy = nocopy;
+        </script>
     </body>
 </html>
