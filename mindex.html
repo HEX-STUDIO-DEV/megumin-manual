@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <title>Megumin</title>
+    <meta http-equip="Content-Type" content="text/html ; charset=UTF-8" />
+    <meta name="description" content="Megumin the Discord bot">
+    <link rel="shortcut icon" href="./materials/meg-pfp-v2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./materials/styles.css">
+</head>
+<body>
+    <div class="upper"
+        style="position: relative; left: 0vw; top: 0vh; width: 100%; border: #ffffff; border-width: 10vw; text-align: center;">
+        <button style="width: 15vw; text-align: center; font-size: 7vw; background-color: #36393e; color: #fff; margin-top: 2vh; margin-bottom: 2vh; border-color: #282b30;" onclick="myFunction()">. . .</button>
+        <a href="mindex.html" target="_blank">
+            <div id="gen" class="buttonmob"style="display: none; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                General</div>
+        </a>
+        <a href="dashboardmob.html" target="_blank">
+            <div id="dash" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Dashboard</div>
+        </a>
+        <a href="commandsmob.html" target="_blank">
+            <div id="cmd" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Commands</div>
+        </a>
+        <a href="privacymob.html" target="_blank">
+            <div id="pp" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Privacy Policy</div>
+        </a>
+        <a href="tosmob.html" target="_blank">
+            <div id="tos" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Terms of Service</div>
+        </a>
+    </div>
+    <div class="main-container"
+        style="position: relative; margin-top: 2.5vh; width: 94vw; border: #ffffff; border-width: 10vw; margin-left: 2vw; margin-right: 2vw;">
+        <br />
+        <div><img src="./materials/meg-pfp-v2.png" alt="Megumin_pfp"
+                style="display: block; margin-left: auto; margin-right: auto; width: 35vh" /></div>
+        <div style="font-size: 9vw; text-align: center; top: 2vh;"><strong>Imagine a bot...</strong></div>
+        <div style="font-size: 5vw; margin-left: 7vw; margin-right: 7vw; margin-top: 2vh; text-align: center;">
+            Megumin is a Fun & Moderation bot. It has a dashboard, that you can open in Discord by using command. If you don't like any of
+            the modules, you could just turn it off! Bot has mini-games like rock-paper-scissors. Also you can chat with
+            a custom AI. And of course there are moderation comands like ban and mute. You can set up custom audit
+            channel for Megumin, so it will be able to log there actions on the server. [Date of release - 30th June2021] 
+            <br/><br/>
+        </div>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=825751550311530546&permissions=8&scope=bot%20applications.commands" target="_blank"><div class="buttoninvite" style="text-align: center; font-size: 7vw; background-color: #36393e; color: #fff; margin-left: 20vw; margin-right: 20vw; line-height: 5vh; border-style: solid; border-width: 2vw; border-radius: 4vw; border-color: #36393e;">INVITE</div></a>
+        <br/><br/>
+    </div>
+</body>
+<script>
+    if (screen.width > 600) {
+        window.location.href = 'index.html';
+    }
+    function myFunction() {
+        var a = document.getElementById("gen");
+        var b = document.getElementById("dash");
+        var c = document.getElementById("cmd");
+        var d = document.getElementById("pp");
+        var e = document.getElementById("tos");
+        if (a.style.display === "none") {
+            a.style.display = "block";
+        } else {
+            a.style.display = "none";
+        };
+        if (b.style.display === "none") {
+            b.style.display = "block";
+        } else {
+            b.style.display = "none";
+        };
+        if (c.style.display === "none") {
+            c.style.display = "block";
+        } else {
+            c.style.display = "none";
+        };
+        if (d.style.display === "none") {
+            d.style.display = "block";
+        } else {
+            d.style.display = "none";
+        };
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        };
+    }
+</script>
+</html>

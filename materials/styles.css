@@ -1,0 +1,103 @@
+body {
+    background-color: #282b30;
+    font-family: sans-serif;
+  }
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.upper {
+    background-color: #1e2124;
+    color: #fff; 
+    font-family: sans-serif;
+    font-size: 1.3vw; 
+}
+.main-container {
+    background-color: #424549;
+    color: #fff; 
+    font-family: sans-serif;
+    font-size: 1.6vw; 
+}
+.button {
+  background-color: #7289da;
+   font-family: sans-serif;
+   font-size: 1.2vw; 
+   font-weight: bold;
+   border-radius: 5vw;
+   padding: 0px;
+   text-align: center;
+   vertical-align:middle;
+}
+.buttoninvite {
+  background-color: #36393e;
+   font-family: sans-serif;
+   font-size: 1.2vw; 
+   font-weight: bold;
+   border-radius: 5vw;
+   padding: 0px;
+   text-align: center;
+   vertical-align:middle;
+}
+.buttoninvite:hover {
+  background-color: #424549;
+}
+.buttonmob {
+  background-color: #7289da;
+   font-family: sans-serif;
+   font-size: 7vw; 
+   font-weight: bold;
+   border-radius: 5vw;
+   padding: 0px;
+   text-align: center;
+   vertical-align:middle;
+}
+.buttonmob:hover {
+  background-color:#7289da;
+}
+.button:hover {
+  background-color:#282b30;
+}
+.dropbtn {
+    background-color: #36393e;
+    color: white;
+    padding: 2.5vh;
+    font-size: 2vh;
+    border: none;
+  }
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    margin-top: 2.5vh;
+    margin-left: 3vw;
+  }
+.dropdown-content {
+    font-size: 3vh;
+    display: none;
+    position: absolute;
+    background-color: #7289da;
+    color: #fff;
+    min-width: 14vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    color: #fff;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #85a0ff;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #424549;}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #424549;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2124;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7289da;
+}
